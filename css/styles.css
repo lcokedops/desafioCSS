@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --bg-blue: #222374;
+    --bg-black: #000;
+    --color-red: #F03C42;
+    --color-gray: #CCCCCC;
+    --color-white: #fff
+
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-social-media {
+    display: flex;
+    align-items: center;
+}
+
+.header-social-media img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+h1 {
+    font-size: 18px;
+}
+
+#our-space {
+    background-color: var(--bg-blue);
+    padding: 20px 0px;
+}
+
+#our-space h2 {
+    font-size: 32px;
+    color: var(--color-white);
+}
+
+.space-cards {
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: var(--color-gray);
+    border-radius: 8px;
+}
+
+.space-cards h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.space-cards p {
+    font-size: 14px;
+}
+
+#modality {
+    background-color: var(--color-white);
+    padding: 20px 0px;
+}
+
+#modality h2 {
+    color: var(--color-red);
+    font-size: 32px;
+}
+
+.modality-card {
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: #222374;
+    border-radius: 8px;
+
+}
+
+.modality-card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--color-white);
+}
+
+.modality-card p {
+    font-size: 14px;
+    color: var(--color-gray);
+}
+
+footer {
+    background-color: var(--bg-black);
+}
+
+.footer-style {
+    color: var(--color-white);
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-footer {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.social-media-footer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-media-footer div img {
+    width: 30px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.social-media-footer div a {
+    font-size: 14px;
+}
+
+.information-footer p {
+    font-size: 14px;
+    text-align: center;
+}
